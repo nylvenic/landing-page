@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -16,6 +16,26 @@
 
 .flex-gap-1 {
     gap: 1rem;
+}
+
+button,
+p,
+h1 {
+    margin: .5rem;
+}
+
+.btn-blue {
+    padding: .5rem 1rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-blue:hover {
+    background-color: #2661c0;
 }
 
 /* header & hero */
@@ -52,3 +72,28 @@ a:hover {
     display: flex;
     align-items: center;
 }
+
+/* hero */
+.hero {
+    padding: 5rem 0;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    width: 50%;
+}
+
+.hero .hero-content,
+.hero img {
+    flex: 1;
+}
+
+.hero .hero-content {
+    width: 50%;
+}
+
