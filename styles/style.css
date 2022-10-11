@@ -170,3 +170,53 @@ a:hover {
     align-self: flex-end;
     font-size:1.5rem;
 }
+
+/* cta */
+.cta .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .container * {
+    margin: 0;
+}
+
+.bg-primary {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.cta .cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+    margin: 4rem;
+    border-radius: 5px;
+}
+
+.cta .cta-container .cta-content {
+    width: 100%;
+    margin: 0 4rem;
+    flex: 2;
+}
+
+.cta .cta-container .button-lite {
+    flex: 0 0 auto;
+    border: 0;
+    background-color: transparent;
+    border: 2px solid currentColor;
+    color: #f9faf8;
+    padding: .5rem 1.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta .cta-container .button-lite:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
+    border-color: #f9faf8;
+}
