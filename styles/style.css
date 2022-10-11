@@ -182,6 +182,10 @@ a:hover {
     margin: 0;
 }
 
+.cta .container h2 {
+    margin-bottom: .5rem;
+}
+
 .bg-primary {
     background-color: #3882f6;
     color: #f9faf8;
@@ -219,4 +223,15 @@ a:hover {
     color: #3882f6;
     background-color: #f9faf8;
     border-color: #f9faf8;
+}
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    padding: 1.5rem;
+}
+
+.footer p {
+    color: #f9faf8;
+    text-align: center;
 }
